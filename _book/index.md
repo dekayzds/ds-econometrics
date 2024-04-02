@@ -1,7 +1,7 @@
 --- 
 title: "Application of Econometric Models with RStudio"
 author: "Deri Siswara"
-# date: "2024-04-01"
+# date: "2024-04-02"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

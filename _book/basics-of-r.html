@@ -45,7 +45,14 @@
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html">Welcome</a></li>
 <li><a class="active" href="basics-of-r.html"><span class="header-section-number">1</span> Basics of R</a></li>
-<li><a class="" href="spatial-regression.html"><span class="header-section-number">2</span> Spatial Regression</a></li>
+<li><a class="" href="basic-linear-regression.html"><span class="header-section-number">2</span> Basic Linear Regression</a></li>
+<li><a class="" href="univariate-time-series.html"><span class="header-section-number">3</span> Univariate Time Series</a></li>
+<li><a class="" href="multivariate-time-series.html"><span class="header-section-number">4</span> Multivariate Time Series</a></li>
+<li><a class="" href="panel-data-regression.html"><span class="header-section-number">5</span> Panel Data Regression</a></li>
+<li><a class="" href="spatial-regression.html"><span class="header-section-number">6</span> Spatial Regression</a></li>
+<li><a class="" href="time-series-spillover---gvar.html"><span class="header-section-number">7</span> Time Series Spillover - GVAR</a></li>
+<li><a class="" href="multivariate-garch.html"><span class="header-section-number">8</span> Multivariate GARCH</a></li>
+<li><a class="" href="nardl.html"><span class="header-section-number">9</span> NARDL</a></li>
 </ul>
 
         <div class="book-extra">
@@ -554,7 +561,7 @@
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="index.html">Welcome</a></div>
-<div class="next"><a href="spatial-regression.html"><span class="header-section-number">2</span> Spatial Regression</a></div>
+<div class="next"><a href="basic-linear-regression.html"><span class="header-section-number">2</span> Basic Linear Regression</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
@@ -608,6 +615,34 @@
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>
